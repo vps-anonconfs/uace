@@ -16,3 +16,8 @@ Features are generated and cached using `mydatasets/broden_features.py`
 ## Section 6.2 Experiments (on Salient-Imagenet)
 Dataset: `mydatasets/salient_imagenet.py`   
 `simagenet_expts.py` caches the features and computes the explanation, which were then processed using `notebooks/simagenet.ipynb` to produce Table 3, 4, 7. 
+
+## Uncertainty Evaluation of Appendix H
+`eval_uncert.py`, `eval_uncert2.py` estimate the confidence intervals on concept activations using MC sampling, Distribution Fit (that is described in the paper: Appendix H.1) and ground-truth epistemic uncertainty. 
+
+Table 9, Figures 7, 8, 9, 10 are generated using `notebooks/plots.ipynb`. 
